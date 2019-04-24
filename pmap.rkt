@@ -22,7 +22,7 @@
   (check-equal? (pmap string-upcase '("naice" "world" "buddy"))
                 '("NAICE" "WORLD" "BUDDY")))
 
-;; generic concurrent map
+;; generic concurrent andmap
 (define (andpmap proc lst)
   (define results (pmap proc lst))
   (if (member #f results) #f #t))
