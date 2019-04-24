@@ -11,3 +11,13 @@ and
 (pfor-each string-upcase '("naice" "world" "buddy"))
 -> #void
 </pre>
+
+I added a concurrent andmap variant: andpmap:
+<pre>
+(andpmap even? '(2 3 4))
+-> #f
+</pre>
+<pre>
+(andpmap even? '(2 4 6))
+-> #t
+</pre>
