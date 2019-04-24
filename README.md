@@ -21,3 +21,7 @@ I added a concurrent andmap variant: andpmap:
 (andpmap even? '(2 4 6))
 -> #t
 </pre>
+
+Cheers,
+
+Dexter
