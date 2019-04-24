@@ -1,5 +1,5 @@
 # pmap
-Concurrent alternatives to map and for-each for Racket
+Concurrent (multi-threaded) alternatives to map and for-each for Racket
 
 Sample usage:
 <pre>
