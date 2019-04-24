@@ -6,3 +6,8 @@ Sample usage:
 (pmap string-upcase '("naice" "world" "buddy"))
 -> '("NAICE" "WORLD" "BUDDY")
 </pre>
+and
+<pre>
+(pfor-each string-upcase '("naice" "world" "buddy"))
+-> #void
+</pre>
